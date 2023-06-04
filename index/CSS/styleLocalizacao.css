@@ -63,7 +63,7 @@ body {
 }
 
 .homeDireito {
-    background-image: url(/img/mapa.png);
+    background-image: url(../img/mapa.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
