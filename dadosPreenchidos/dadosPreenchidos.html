@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleDadosPreenchidos.css">
+    <title>Cadastro Preenchido</title>
+</head>
+<body>
+    <div class="principal">
+        <div class="linha">
+            <a href="..\orfanato\index.html"><img id="img1" src="../img/local.png" alt="Local"></a>
+            <div class="posit">
+                <a href="..\dados\dados.html">
+                    <div class="img-box">
+                        <img class="voltar" src="../img/voltar.png" />
+                        <img class="voltarAzul" src="../img/VoltarAzul.png" />
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="contaInter">
+                <h1>Dados</h1>
+
+                <hr>
+
+
+                <div class="contTop">
+                    <div id="img">
+                        <img src="../img/local.png" alt="Local">
+                    </div>
+                    <p id="pTop">Clique para no mapa para adcionar a localização</p>
+                </div>
+
+                <form action="">
+                    <label for="fname"><p class="p1">Nome</p></label><br>
+                    <input type="text" id="fname" name="fname"><br>
+                </form>
+
+                <form action="">
+                    <label id="textP"for="sobre"><p class="p1">Sobre </p><p id="p2">Máximo de 300 catacteres</p></label>
+                    <textarea name="sobre" id="sobre" cols="30" rows="10"></textarea>
+                </form>
+
+                <form action="">
+                    <label for="phone"><p class="p1">Número do Whatsapp</p></label><br>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br>
+                </form>
+
+                <div class="fotosMini">
+                    <form action="">
+                        <label for="foto"><p class="p1">Fotos</p></label><br><br>
+                        <button type="button" id="foto1"><div class="x"><img src="../img/x-circle.png" alt=""></div></button>
+                    </form>
+
+                    <form action="">
+                        <label for="foto"><p class="p1">Fotos</p></label><br><br>
+                        <button type="button" id="foto2"><div class="x"><img src="../img/x-circle.png" alt=""></div></button>
+                    </form>
+
+                    <form action="">
+                        <label for="foto"><p class="p1">Fotos</p></label><br><br>
+                        <button type="button" id="foto3"><div class="x"><img src="../img/x-circle.png" alt=""></div></button>
+                    </form>
+
+                    <form action="">
+                        <label for="foto"><p class="p1">Fotos</p></label><br><br>
+                        <button type="button" id="foto4"><div class="x"><img src="../img/x-circle.png" alt=""></div></button>
+                    </form>
+
+                    <form action="">
+                        <label for="foto"><p class="p1">Fotos</p></label><br><br>
+                        <button type="button" id="fotos"><img src="../img/+.png" alt="soma"></button>
+                    </form>
+                </div>
+
+                    <h1>Visitação</h1>
+                    <hr style="margin-bottom: 40px;">
+
+                    <form action="">
+                        <label for="instru"><p class="p3">Instruções</p></label>
+                        <textarea name="instru" id="instru" cols="30" rows="10"></textarea>
+                    </form>
+
+                    <form action="">
+                        <label for="visita"><p class="p3">Horário de visitas</p></label>
+                        <input type="text" id="visita" name="visita"><br>
+                    </form>
+
+                    <div class="ativo">
+                        <p class="p4">Atende fim de semana?</p>
+                        <button id="butt"><div id="ativar"></div></button>
+                    </div>
+
+                <a href="">     
+                    <div class="botaoConfirm">                     
+                        <img src="../img/whatsapp.png" alt="whatsapp">
+                        <p id="textContact">Entrar em contato</p>                      
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

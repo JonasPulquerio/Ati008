@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.homeEsquerdo {
+    background-color: #0FC0CB;
+    width: 70%;
+
+}
+
+.textt img {
+    padding: auto;
+    margin-top: 15%;
+    margin-left: 25%;
+}
+
+.textt h1 {
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    width: 50%;
+    font-size: 4em;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-left: 25%;
+}
+
+.textt p {
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.1em;
+    width: 30%;
+    font-weight: 400;
+    line-height: 1.8;
+    margin-left: 25%;
+}
+
+.textb {
+    margin-top: 25%;
+}
+
+.textb p {
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.2em;
+    width: 50%;
+    font-weight: 500;
+    margin-bottom: -10px;
+    margin-left: 25%;
+}
+
+.textb #textbp {
+    font-weight: 800;
+}
+
+.homeDireito {
+    background-image: url(/img/mapa.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.homeDireito .imageFim {
+    position: relative;
+}
+
+.imgIm1 {
+    position: absolute;
+    top: 630px;
+    left: 1145px;
+    display: flex;
+    height: 70px;
+}
+
+.imgText1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+    width: 170px;
+    height: 40px;
+    padding: 5px 0px;
+    border-radius: 15px;
+    margin-left: 5px;
+    color: #0089A5;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+}
+
+.imgText1 img {
+    height: 40px;
+}
+
+.imgIm3 {
+    position: absolute;
+    top: 240px;
+    left: 1525px;
+    display: flex;
+    height: 70px;
+}
+
+.imgIm1:hover {
+    color: none;
+}
+
+.imgIm1:hover .imgIm2 {
+    display: inherit;
+}
+
+.imgIm2 {
+    display: none;
+}
+
+.imgIm3:hover {
+    color: none;
+}
+
+.imgIm3:hover .imgIm4 {
+    display: inherit;
+}
+
+.imgIm4 {
+    display: none;
+}
+
+.imageFim .img-box {
+    position: absolute;
+    top: 830px;
+    right: 25px;
+}
+
+.img-box img.img-hover {
+  display: none;
+}
+.img-box:hover img.img-default {
+  display: none;
+}
+.img-box:hover img.img-hover {
+  display: inherit;
+}

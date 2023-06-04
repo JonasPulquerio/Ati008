@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.principal {
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.linha {
+    background-color: #0FC0CB;
+    display: block;
+    width: 90px;
+    height: 600px;
+    padding-top: 15px;
+    position: fixed;
+}
+
+.posit {
+    position: relative;
+}
+
+.linha #img1 {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+}
+
+.linha .img-box {
+    position: absolute;
+    top: 500px;
+}
+
+.linha .voltar {
+    position: absolute;
+    left: 20px;
+}
+
+.linha .voltarAzul {
+    position: absolute;
+    left: 20px;
+}
+
+.linha .img-box img.voltarAzul {
+    display: none;
+  }
+  .linha .img-box:hover img.voltar {
+    display: none;
+  }
+  .linha .img-box:hover img.voltarAzul {
+    display: inherit;
+  }
+
+.container {
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    width: 45%;
+    margin: 5% auto;
+    border-radius: 20px;
+    border: 1px solid rgb(219, 219, 219);
+}
+
+.contaInter {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contTop {
+    background-color: #F5F8FA;
+    border-radius: 25px;
+    height: 300px;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    border: 1px solid rgb(233, 233, 233);
+}
+
+.contTop #img {
+    background-image: url(../img/mapa22.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+    border-radius: 20px 20px 0 0 ;
+}
+
+h1 {
+    color: #4D6F80;
+    margin-top: 70px;
+}
+
+hr {
+    opacity: 0.3;
+}
+
+.contTop p {
+    text-align: center;
+    margin: 15px 0 15px 0;
+}
+
+form {
+    margin-bottom: 25px;
+}
+
+#fname {
+    color: #8FA7B2;
+    font-weight: 600;
+    width: 100%;
+    background-color: #F5F8FA;
+    border-radius: 10px;
+    height: 40px;
+    border: 1px solid  #c2d6e2;
+}
+
+#phone{
+    color: #8FA7B2;
+    font-weight: 600;
+    width: 100%;
+    background-color: #F5F8FA;
+    border-radius: 10px;
+    height: 40px;
+    border: 1px solid  #c2d6e2;
+}
+
+#sobre {
+    width: 100%;
+    background-color: #F5F8FA;
+    border-radius: 10px;
+    border: 1px solid  #c2d6e2;
+}
+
+#textP {
+    display: flex;
+    margin-bottom: -15px;
+}
+
+#pTop {
+    color: #0089A5
+}
+
+.p1 {
+    color: #8FA7B2;
+    font-weight: 600;
+    margin-bottom: -10px;
+}
+
+#p2 {
+    color: #8FA7B2;
+    font-weight: 400;
+    margin-left: 30px;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+#foto {
+    width: 70px;
+    height: 60px;
+    background-color: #F5F8FA;
+    border-radius: 10px;
+    margin-top: -20px;
+    margin-bottom: -15px;
+    border: 1px solid  #c2d6e2;
+    border-style: dashed;
+}
+
+#instru {
+    width: 100%;
+    background-color: #F5F8FA;
+    border-radius: 10px;
+    border: 1px solid  #c2d6e2;
+    margin-top: -15px;
+}
+
+#visita {
+    width: 100%;
+    height: 40px;
+    background-color: #F5F8FA;
+    border-radius: 10px;
+    border: 1px solid  #c2d6e2;
+    margin-top: -60px;
+}
+
+.ativo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.p3 {
+    font-family: 'Nunito', sans-serif;
+    color: #8FA7B2;
+    font-weight: 400;
+}
+
+.p4 {
+    margin: auto 0;
+    font-family: 'Nunito', sans-serif;
+    color: #8FA7B2;
+    font-weight: 700;
+}
+
+.ativo #butt {
+    margin: auto 0;
+    width: 75px;
+    height: 20px;
+    border-radius: 30px;
+    border: 1px solid #d6d7d8;
+}
+
+#ativar {
+    background-color: #8FA7B2;
+    width: 30px;
+    height: 10px;
+    border-radius: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.botaoConfirm {
+    display: flex;
+    background-color: #37C77F;
+    justify-content: center;
+    margin-top: 5%;
+    border-radius: 20px;
+    margin-bottom: 15%;
+}
+
+.botaoConfirm img {
+    width: 25px;
+    height: 25px;
+    margin: auto 10px;
+}
+
+.botaoConfirm p {
+    color: white;
+    font-weight: bold;
+    margin: 15px;
+    font-size: 1.1em;
+}
